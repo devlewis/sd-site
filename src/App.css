@@ -2,37 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.All {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 4vmin);
+}
+
+.App-header {
+  background-color: #282c34;
   color: white;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .App-link {
   color: #61dafb;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.About {
+  color: #282c34;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.5em;
+  text-align: left;
+  font-size: calc(10px + 3vmin);
+}
+
+.Form {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  width: 80vw;
+}
+
+.Input {
+    margin-bottom: 10px;
+    font-size: calc(10px + 2vmin);
+}
+
+.Button {
+  background-color:#61dafb;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(10px + 2vmin);
+}
+
+.SocialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Media {
+  justify-content: space-around;
+}
+
+.Footer {
+  color: #282c34;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1.5em;
+  justify-content: space-between;
+  font-size: calc(10px + 1vmin);
 }
